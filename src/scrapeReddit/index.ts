@@ -23,4 +23,4 @@ async function scrapeReddit(url: string, limit: number, outputFileName?: string)
   await browser.close();
 };
 
-scrapeReddit('https://www.reddit.com/r/askreddit/top/?t=all', 100, 'top-100-askreddit');
+scrapeReddit('https://www.reddit.com/r/showerthoughts/top/?t=all', 100, 'top-100-showerthoughts');

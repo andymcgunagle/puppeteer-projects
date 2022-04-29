@@ -7,6 +7,7 @@ export function getCommentLinks() {
         link.textContent &&
         !link.textContent?.includes('comment') &&
         !link.textContent?.includes('comments') &&
+        link.textContent !== 'Update' &&
         !link.textContent?.includes('hours ago') &&
         !link.textContent?.includes('years ago')
       ) {
