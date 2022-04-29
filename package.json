@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch --preserveWatchOutput",
+    "save": "git add . && git commit && git push origin main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.7.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.6"
+  }
+}
